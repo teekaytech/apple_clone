@@ -53,25 +53,32 @@ table {
           box-sizing: border-box;
 }
 
-
-
-
+/* Header section */
 header {
-  padding: 20px;
-  background-color: lawngreen;
+  background-image: url('../assets/main_background.jpg');
+  /* background-repeat: no-repeat; */
+  /* background-position: right top; */
 }
 
 nav {
   padding: 20px;
-  background-color: black;
+  margin: 0 auto;
 }
 
+ul.navbar li {
+  display: inline;
+}
+
+/* End of header styling */
+
+/* Main section */
 main {
-  padding: 20px;
-  background-color: brown;
+
 }
 
+/* End of main section */
+
+
+/* Footer section */
 footer {
-  padding: 20px;
-  background-color: cornflowerblue;
 }
