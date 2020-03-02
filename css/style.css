@@ -31,21 +31,28 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
   line-height: 1;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 ol, ul {
-	list-style: none;
+  list-style: none;
+
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
+
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before, 
+blockquote:after,
+q:before, 
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -64,20 +71,73 @@ a:hover {
 /* Header section */
 
 header {
-  background-image: url('../assets/main_background.jpg');
-  height: 500px;
-  max-height: 500px;
-  /* background-repeat: no-repeat; */
-  /* background-position: right top; */
+  background: url('../assets/main_background.jpg') no-repeat bottom;
+  height: 550px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
-nav {
-  padding: 20px;
-  margin: 0 auto;
+div.navigation {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 90px;
+  color: #fff;
+}
+
+.navbar-menu {
+  margin: auto;
+  margin-bottom: 60px;
+  background-image: linear-gradient(#646464, #413f3f, #646464);
+  border-radius: 5px;
 }
 
 ul.navbar li {
-  display: inline;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 10px 30px;
+}
+
+li a:hover {
+  /* background-color: #6e6e6e; */
+
+  background: linear-gradient(#000, #6e6e6e);
+}
+
+li a, 
+li a:hover {
+  text-decoration: none;
+}
+
+.nav-details {
+  margin: 0 170px 0 170px;
+}
+
+.nav-header {
+  font-size: 3em;
+}
+
+.sub-header {
+  font-size: 26px;
+  padding-top: 20px;
+}
+
+.sub-header a {
+  font-size: 22px;
+  color: #fff;
+}
+
+.nav-header, 
+.sub-header {
+  margin: 0 20px 20px 20px;
+  text-align: center;
+  cursor: pointer;
 }
 
 /* End of header styling */
@@ -96,8 +156,6 @@ img.promo-item {
 }
 
 /* End of main section */
-
-
 /* Footer section */
 
 footer {
