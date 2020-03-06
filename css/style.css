@@ -131,13 +131,14 @@ div.navigation {
   padding: 0 30px 0 30px;
   border-right: unset;
 }
-.navbar li {
-  display: inline-block;
-}
 
 li {
   padding: 5px 0 10px 0;
   font-size: small;
+}
+
+.navbar li {
+  display: inline-block;
 }
 
 li:hover {
