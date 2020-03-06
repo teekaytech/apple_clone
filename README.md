@@ -3,8 +3,8 @@
 This is a clone application of archived apple website.
 <br>
 <br>
-<img src="img/screen_one.jpg" width="350"> 
-<img src="img/screen_two.jpg" width="350"> 
+<img src="assets/screen_one.jpg" width="350"> 
+<img src="assets/screen_two.jpg" width="350"> 
 <br>
 
 In this project, my aim wasn’t to produce an exact replica of the archived apple.com page, but rather to focus on how to align all elements with float and flex or grid in CSS. That means two things – laying out the basic structure of the page using semantic HTML elements and ensuring that the elements are appropriately sized and positioned.
@@ -18,7 +18,7 @@ Some of the elements in the said archive are produced with Javascript but my obj
   * W3C Validator
 
 ## Live demo
-https://raw.githack.com/teekaytech/apple_clone/development/index.html
+https://rawcdn.githack.com/teekaytech/apple_clone/1b0ced8bb2e2da222692ba711febd30c61292c4f/index.html
 
 ## Getting started
 **I cloned an archived copy of Apple website. The main aim is to ensure the elements get placed and styled roughly the same way as the source, so functionality is not a priority.**
