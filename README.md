@@ -18,7 +18,7 @@ Some of the elements in the said archive are produced with Javascript but my obj
   * W3C Validator
 
 ## Live demo
-https://rawcdn.githack.com/teekaytech/apple_clone/1b0ced8bb2e2da222692ba711febd30c61292c4f/index.html
+https://rawcdn.githack.com/teekaytech/apple_clone/ec9edf400ad5d4c8a884ad51e27dbb191e8ad382/index.html
 
 ## Getting started
 **I cloned an archived copy of Apple website. The main aim is to ensure the elements get placed and styled roughly the same way as the source, so functionality is not a priority.**
