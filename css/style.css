@@ -168,6 +168,10 @@ li img {
   width: 16px;
 }
 
+li a {
+  color: white;
+}
+
 .nav-details {
   text-align: center;
   margin: auto;
@@ -201,11 +205,25 @@ main {
   margin-top: 2px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: minmax(150px,200px);
   grid-gap: 2px;
 }
 
-img.promo-item {
-  width: 100%;
+.promo1 {
+  background-image: url("../assets/promo_img_1.jpg");
+  z-index: 1;
+}
+
+.promo2 {
+  background-image: url("../assets/promo_img_2.jpg");
+}
+
+.promo3 {
+  background-image: url("../assets/promo_img_3.jpg");
+}
+
+.promo4 {
+  background-image: url("../assets/promo_img_4.jpg");
 }
 
 /* Footer section */
