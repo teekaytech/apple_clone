@@ -118,58 +118,82 @@ div.navigation {
 }
 
 .navbar-menu {
-  margin: auto;
-  width: 70%;
+  margin: 0 auto; 
+  min-width: 70%;
   margin-top: 85px;
   margin-bottom: 50px;
-  padding-left: 5px;
   background: linear-gradient(0.5turn, #6e6e6e, #413f3f, #6e6e6e);
   border-radius: 5px;
 }
 
-.navbar span:last-child {
-  padding: 0 30px 0 30px;
-  border-right: unset;
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 2em;
 }
 
-li {
-  padding: 5px 0 10px 0;
-  font-size: small;
+.itm {
+  flex: 1;
+  border-right: 1px solid grey;
 }
 
-.navbar li {
-  display: inline-block;
-}
-
-li:hover {
-  background: #6e6e6e;
+.itm:hover {
   background: linear-gradient(#000, #6e6e6e);
   cursor: pointer;
 }
 
-li:last-child:hover {
+li a {
+  color: white;
+}
+
+.nav-item1 {
+  padding: unset;
+}
+
+.itm:last-child {
+  border-right: unset;
+  padding: 0 10px;
+}
+
+.itm:last-child:hover {
   background: unset;
   cursor: default;
+  border: white;
+}
+
+.nav-item9 img {
+  float: left;
+  position: relative;
+  top: 0px;
+  left: 0px;
 }
 
 input[type="text"] {
   background-color: transparent;
-  width: 120px;
-  border-radius: 15px;
+  width: 100px;
+  border-radius: 10px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  padding: 2px;
+  transition: width 0.5s ease-in-out;
 }
 
 input[type="text"]:focus {
   background-color: white;
+  border: unset;
   padding-left: 30px;
+  width: 150px
 }
 
 li img {
-  padding-top: 5px;
-  width: 16px;
-}
-
-li a {
-  color: white;
+  position: relative;
+  top: 5px;
+  width: 20px;
 }
 
 .nav-details {
